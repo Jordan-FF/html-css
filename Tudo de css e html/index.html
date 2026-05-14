@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <title>Tudo que foi visto antes de formatação</title>
+    <style>
+        mark {
+            background-color: lime;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios antes da formatação</h1>
+    <h2>Exercicios para não esquecer</h2>
+    <hr>
+    <h2>Vamos começar por simbolos</h2>
+    <p>Adicionando simbolos especiais</p>
+    <p>
+        &reg;
+        &copy;
+        &trade;
+        &euro;
+        &pound;
+        &real;
+    </p>
+    <hr>
+    <h2>Agora emojis</h2>
+    <p>
+        &#x1F596;
+        &#x1F913; 
+    </p>
+    <hr>
+    <h2>Adicionando imagens</h2>
+    <img src="HTML5 LOGO1200.webp" alt="logo html 1200">
+    <img src="HTML5 LOGO.webp" alt="logo html full">
+    <hr>
+    <h1>Criando títulos e subtítulos (Este é um &lt;h1&gt;)</h1>
+    <h2>Este é um &lt;h2&gt; que é um subtítulo do h1</h2>
+    <h3>Este é um &lt;h3&gt; que é um subtítulo do h2</h3>
+    <p>Em títulos(h1,h2,h3...h6) temos vários níveis, mas isso não quer dizer que se trata de fontes grande ou pequenas, mas trata-se de niveis de hierarquia.</p>
+    <hr>
+    <h1>Falando sobre semântica</h1>
+    <p>para um endereço podemos utilizar a tag &lt;address&gt; pois é a forma ideal para significado, e a navegação for no celular, pode ocorrer de termos um atalho para o maps.</p>
+    <p><strong>Para deixar em negrito, devemos utilizar o &lt;strong&gt;</strong>.</p>
+    <p><em>Para deixar me itálico, devemos usar o &lt;em&gt;.</em></p>
+    <p><mark>Para utilizar o 'marca texto' utilizamos o &lt;mark&gt;, e para colorir todos os 'mark' de uma vez, deve-se utilizar o CSS.</mark></p>
+    <p>Para textos menores, utilizamos o <small>&lt;small&gt;.</small></p>
+    <p>Para textos 'deletados', deve-se utilizar o <del>&lt;del&gt;.</del></p>
+    <p>Para textos inseridos que dão ênfases para ser lido, utiliza-se o <ins>&lt;ins&gt;.</ins></p>
+    <p>Para <ins>sobrescrever(para baixo)</ins> usa-se o <sub><mark>&lt;sub&gt;.</mark></sub></p>
+    <p>Para subescrever <ins>(para cima)</ins> usa-se o <sup><mark>&lt;sup&gt;</sup>.</mark></ins></p>
+    <p>Para demonstração de código na página, devemos utilizar o o <mark>&lt;code&gt;</mark></p>
+    <h1>Veja o exemplo:</h1>
+    <pre>
+    <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0
+    print(f' O número {num} é par')
+    else:
+    print(f'O número {num} é ímpar')
+    print('FIM DO PROGRAMA')
+    </code>
+    </pre>
+    <p>Para criar uma <q>Citação</q>, usa-se o &lt;q&gt; (o Citação está tageado).</p>
+    <p>Para citações em blocos usa-se o &lt;blockquote&gt; 
+        <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum dolores a, inventore architecto dolor (após dolor está tageado) <blockquote>laboriosam illum rerum cumque ut adipisci repellat. Ad pariatur obcaecati doloremque cupiditate voluptatem ipsam quidem ratione!</blockquote>
+    </p>
+    <h2>Agora vamos para as listas Ordenadas e Não Ordenadas</h2>
+    <h2>Rankeando os games!</h2>
+    <p>PlayStation</p>
+    <ol type="1">
+        <LI>GOW</LI>
+        <ol type="a">
+            <li>GOW 1 (PS2)</li>
+            <li>GOW 2018</li>
+            <li>GOW 2 (PS2)</li>
+        </ol>
+        <LI>RE4</LI>
+        <li>SHADOW OF THE COLOSSUS</li>
+        <li>GTA SAN</li>
+        <li>NFS U2</li>
+        <li>MIDNIGHT CLUB 3</li>
+        <li>ONIMUSHA 3</li>
+    </ol>
+    <P>PC</P>
+    <ul type="square">
+        <li>LOL</li>
+        <li>PES 2009</li>
+        <li>Crysis</li>
+        <li>Warcraft 3</li>
+        <li>Combat Arms</li>
+    </ul>
+    <h2>Listas de Definição</h2>
+    <dl>
+        <dt>Aqui (&lt;dt&gt;) dentro vai o título/termo</dt>
+        <dd>Aqui (&lt;dd&gt;) vai a descrição</dd>
+    </dl>
+    <h2>Vamos falar de links e âncoras</h2>
+    <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Liga%C3%A7%C3%B5es%20em%20toda%20parte.pdf" target="_self" rel="next">Aqui será um hiperlink com target na continuação do site (_self)</a>
+    <br>
+    <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Liga%C3%A7%C3%B5es%20em%20toda%20parte.pdf" target="_blank" rel="external">Já neste hiperlink o target está para fora (_blank)</a>
+    <h2>Usando links interno</h2>
+    <p>Esta é a primeira página do meu site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next">segunda página</a></p>
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next">página de notícias</a></p>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/10 - Ligações em toda parte.pdf" download="Ligações em toda parte.pdf" type="application/pdf">Baixar livro em PDF</a></li>
+        <li><a href="livro/10 - Ligações em toda parte.zip" download="Ligações em toda parte.pdf" type="application/zip">Livro compacto em ZIP</a></li>
+    </ul>
+</body>
+</html>

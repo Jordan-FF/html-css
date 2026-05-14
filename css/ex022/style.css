@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: auto;
+}
+
+header {
+    background-color: green;
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+}
+
+nav a {
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
