@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body {
+    background-color: darkgray;
+    font-family: var(--fonte1);
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+main {
+
+}
+
+p a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
