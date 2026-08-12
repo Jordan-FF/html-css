@@ -14,3 +14,6 @@ Exercício 26 - MQ002
 
 <a href="CSS%20-%20DF/exercícios/ex026/mq002/" target="_blink">executar o exercício 26/2<a/>
                 
+Exercício 26 - MQ005
+
+<a href="CSS%20-%20DF/exercícios/ex026/mq005/" target="_blink">executar o exercicio 26/3<a/>
